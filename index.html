@@ -140,7 +140,13 @@
             updateDisplay();
         }
 
-       
+        function convertirPeso() {
+            if (currentInput === '') return;
+            let cambioD = 0.00024; // Ejemplo de tasa de cambio
+            let result = parseFloat(currentInput) * cambioD;
+            currentInput = result.toFixed(2); // Redondea a 2 decimales
+            updateDisplay();
+        }
 
         function clearDisplay() {
             currentInput = '';
