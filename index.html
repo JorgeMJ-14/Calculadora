@@ -48,6 +48,9 @@
     </style>
 </head>
 <body>
+
+    <div><h2>Proyecto Calculadora</h2></div>
+    <div><h2>Autor: JORGE ROJAS</h2></div>
     <div class="calculator">
         <div id="display" class="display"></div>
         <div class="buttons">
@@ -135,8 +138,7 @@
 
         function convertirPresion() {
             if (currentInput === '') return;
-            let result = parseFloat(currentInput) * 14.504
-            ;
+            let result = parseFloat(currentInput) * 14.504;
             currentInput = result.toString();
             updateDisplay();
         }
