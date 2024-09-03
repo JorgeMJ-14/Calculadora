@@ -1,5 +1,2 @@
-<<<<<<< HEAD
 hola esta es una nueva version
-=======
 hola son los cambios del fondo
->>>>>>> titulo
